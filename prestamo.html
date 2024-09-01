@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>LIBROARTE</title>
+    <link rel="icon" href="img/icono.png.png">
+</head>
+<body>
+    <div class="encabezado-container">
+       <a href="libros.html"> <button class="regresar"><img src="img/regresar.png" width="20px" height="20px"></button></a>
+    </div>
+    <div class="biblo">
+    <img src="img/navbar.jpg" width="630px" height="618px">
+    </div>
+    <h1 class="hh1">LIBROARTE</h1>
+    <div class="usuario-iniciar">
+        <p class="iniciar">PRESTAR LIBRO</p>
+    </div>
+    <div >
+    <form action="Libro.html" method="GET" class="formulario">
+        <input class="form_input"  id="nombre" name="nombre" required placeholder="Nombre completo">
+        <input class="form_input" type="email" id="e-mail" name="email" required placeholder="e-mail">
+        <input class="form_input" type="password" id="contraseña" name="contraseña" required placeholder="contraseña">
+        <select class="form_input rol" name="rol" required >
+            <option value="">Selecciona tu rol</option>
+            <option value="estudiante">Estudiante</option>
+            <option value="profesor">Profesor</option>
+        </select>
+        <select class="form_input rol" name="grado" required >
+            <option value="">Selecciona tu grado</option>
+            <option value="grado">Primero</option>
+            <option value="grado">Segundo</option>
+            <option value="grado">Tercero</option>
+            <option value="grado">Cuarto</option>
+            <option value="grado">Quinto</option>
+            <option value="grador">Sexto</option>
+            <option value="grado">Séptimo</option>
+            <option value="grado">Octavo</option>
+            <option value="grado">Noveno</option>
+            <option value="grado">Décimo</option>
+            <option value="grado">Once</option>
+        </select>
+        <select class="form_input rol" name="opion" required >
+            <option value="">Selecciona tu opcion</option>
+            <option value="PDF">PDF</option>
+            <option value="Fisico">Fisico</option>
+        </select>
+        <input class="form_input form_boton" type="submit" value="Continuar">
+    </form>
+</div>
+</body>
+</html>
